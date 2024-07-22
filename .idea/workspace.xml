@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75dce1d6-e887-4096-a144-025667279be3" name="Changes" comment="Tests files added">
+    <list default="true" id="75dce1d6-e887-4096-a144-025667279be3" name="Changes" comment="Scripts files added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/evaluate_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/evaluate_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/train_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/train_models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,18 +36,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/elmer/PycharmProjects/MercaditoNicaAIModels",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\elmer\PycharmProjects\MercaditoNicaAIModels" />
@@ -73,7 +71,12 @@
       <option name="presentableId" value="Default" />
       <updated>1721420897904</updated>
       <workItem from="1721420913481" duration="2330000" />
-      <workItem from="1721424200235" duration="6074000" />
+      <workItem from="1721424200235" duration="8885000" />
+      <workItem from="1721499210246" duration="3045000" />
+      <workItem from="1721526709624" duration="1286000" />
+      <workItem from="1721660825558" duration="602000" />
+      <workItem from="1721664167011" duration="1887000" />
+      <workItem from="1721681429102" duration="1114000" />
     </task>
     <task id="LOCAL-00001" summary="Models developed">
       <option name="closed" value="true" />
@@ -99,7 +102,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721433179769</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Scripts files added">
+      <option name="closed" value="true" />
+      <created>1721433505996</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721433505996</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Scripts files added">
+      <option name="closed" value="true" />
+      <created>1721448907629</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721448907629</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +128,7 @@
     <MESSAGE value="Models developed" />
     <MESSAGE value="Model utils and data files added" />
     <MESSAGE value="Tests files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests files added" />
+    <MESSAGE value="Scripts files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scripts files added" />
   </component>
 </project>
