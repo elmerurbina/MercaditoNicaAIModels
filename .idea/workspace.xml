@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75dce1d6-e887-4096-a144-025667279be3" name="Changes" comment="Scripts files added">
+    <list default="true" id="75dce1d6-e887-4096-a144-025667279be3" name="Changes" comment="api structure added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/enpoints/market_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/enpoints/market_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/enpoints/pricing.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/enpoints/pricing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/enpoints/recommender.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/enpoints/recommender.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,7 +87,7 @@
       <workItem from="1721526709624" duration="1286000" />
       <workItem from="1721660825558" duration="602000" />
       <workItem from="1721664167011" duration="1887000" />
-      <workItem from="1721681429102" duration="1114000" />
+      <workItem from="1721681429102" duration="2458000" />
     </task>
     <task id="LOCAL-00001" summary="Models developed">
       <option name="closed" value="true" />
@@ -118,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721448907629</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="api structure added">
+      <option name="closed" value="true" />
+      <created>1721683727317</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721683727317</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +148,7 @@
     <MESSAGE value="Model utils and data files added" />
     <MESSAGE value="Tests files added" />
     <MESSAGE value="Scripts files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scripts files added" />
+    <MESSAGE value="api structure added" />
+    <option name="LAST_COMMIT_MESSAGE" value="api structure added" />
   </component>
 </project>
