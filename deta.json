@@ -1,0 +1,5 @@
+{
+  "name": "mercadito-nica",
+  "type": "web",
+  "entrypoint": "api.main:app"
+}

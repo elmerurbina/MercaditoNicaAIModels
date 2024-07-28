@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75dce1d6-e887-4096-a144-025667279be3" name="Changes" comment="api structure added">
+    <list default="true" id="75dce1d6-e887-4096-a144-025667279be3" name="Changes" comment="Updates">
+      <change afterPath="$PROJECT_DIR$/deta.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/enpoints/market_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/enpoints/market_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/enpoints/pricing.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/enpoints/pricing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/enpoints/recommender.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/enpoints/recommender.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
+    "Python.predict.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/elmer/PycharmProjects/MercaditoNicaAIModels",
@@ -57,6 +58,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -87,7 +89,11 @@
       <workItem from="1721526709624" duration="1286000" />
       <workItem from="1721660825558" duration="602000" />
       <workItem from="1721664167011" duration="1887000" />
-      <workItem from="1721681429102" duration="2458000" />
+      <workItem from="1721681429102" duration="4097000" />
+      <workItem from="1721996584415" duration="750000" />
+      <workItem from="1722021484682" duration="1932000" />
+      <workItem from="1722023537526" duration="9906000" />
+      <workItem from="1722126432241" duration="4130000" />
     </task>
     <task id="LOCAL-00001" summary="Models developed">
       <option name="closed" value="true" />
@@ -137,7 +143,55 @@
       <option name="project" value="LOCAL" />
       <updated>1721683727317</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="enpoints files added">
+      <option name="closed" value="true" />
+      <created>1721685153005</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721685153005</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Dockerfile added">
+      <option name="closed" value="true" />
+      <created>1722034311748</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722034311748</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Dockerfile added">
+      <option name="closed" value="true" />
+      <created>1722034397190</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722034397190</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Dockerfile added">
+      <option name="closed" value="true" />
+      <created>1722034650479</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722034650479</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Dockerfile added">
+      <option name="closed" value="true" />
+      <created>1722053226574</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722053226574</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1722138319706</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722138319706</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +203,13 @@
     <MESSAGE value="Tests files added" />
     <MESSAGE value="Scripts files added" />
     <MESSAGE value="api structure added" />
-    <option name="LAST_COMMIT_MESSAGE" value="api structure added" />
+    <MESSAGE value="enpoints files added" />
+    <MESSAGE value="Dockerfile added" />
+    <MESSAGE value="Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MercaditoNicaAIModels$predict.coverage" NAME="predict Coverage Results" MODIFIED="1722138208815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/MercaditoNicaAIModels$main.coverage" NAME="main Coverage Results" MODIFIED="1722139112747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

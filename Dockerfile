@@ -11,10 +11,10 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application code into the container
-COPY dockers .
+COPY . .
 
 # Expose port 80 for the application
 EXPOSE 80
 
 # Define the command to run the application
-CMD ["uvicorn", "main:MercaditoNicaAIModels", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
