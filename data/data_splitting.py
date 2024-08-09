@@ -101,7 +101,7 @@ if __name__ == "__main__":
     # Replace with the actual database URL and table name
     db_url = 'mysql+pymysql://username:password@sql111.byetcluster.com/ezyro_36944054_MercaditoNica'
     table_name = 'model_training_data'
-    target_column = 'target_column'  # Replace with target column name
+    target_column = 'target_data'
 
     # Initialize DataSplitter
     splitter = DataSplitter(db_url, table_name, target_column)

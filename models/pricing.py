@@ -86,6 +86,6 @@ class PricingCalculator:
 
 # Ejemplo de uso
 if __name__ == "__main__":
-    product_id = 1  # Asumimos que el ID del producto es 1
+    product_id = 1
     calculator = PricingCalculator(product_id)
     print(calculator.generate_price_suggestion_message())

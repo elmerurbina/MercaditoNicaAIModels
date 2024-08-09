@@ -55,36 +55,42 @@ MercaditoNicaAIModels is a project developed as part of the MercaditoNica platfo
 
 Create and activate a virtual environment:
 
-```bash
+` 
 python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
+source venv/bin/activate  # On Windows use venv\Scripts\activate`
+ 
 install requirements
-pip install -r requirements.txt
+` pip install -r requirements.txt` 
 
 
 Usage
 Training Models:
 
 To train all models, run:
-python scripts/train_models.py
+` python scripts/train_models.py` 
 
 
 Evaluating Models:
 
 To evaluate model performance, run:
-python scripts/evaluate_models.py
+` python scripts/evaluate_models.py` 
 
 Making Predictions:
 
 To make predictions with a trained model, run:
-python scripts/predict.py
+` python scripts/predict.py` 
 
 To make predictions with a trained model, run:
 python scripts/evaluate_models.py
 
 Build the docker image:
-docker build -t mercaditonica-ai-models -f docker/Dockerfile .
+` docker build -t mercaditonica-ai-models -f docker/Dockerfile .` 
 
 Run the Docker container:
-docker-compose up
+` docker-compose up` 
+
+The file ` main.py`  is the main file of the API, used by the ` Dockerfile`  to build the Docker image
+
+The _api_ directory contain the elements for the API developed with FastAPI
+
+You can reach the deployed API at: https://mercaditonica-4gcdt8rn.b4a.run/

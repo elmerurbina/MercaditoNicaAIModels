@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75dce1d6-e887-4096-a144-025667279be3" name="Changes" comment="Updates">
-      <change afterPath="$PROJECT_DIR$/deta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/recommender_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_markey_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_pricing_calculator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_splitting.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_splitting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/pricing.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/pricing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +51,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests in recommender_test.py.executor": "Run",
+    "Python tests.Python tests in test_data_loader.py.executor": "Debug",
+    "Python tests.Python tests in test_markey_analysis.py.executor": "Run",
+    "Python tests.Python tests in test_pricing_calculator.py.executor": "Run",
     "Python.main.executor": "Run",
     "Python.predict.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -93,7 +100,10 @@
       <workItem from="1721996584415" duration="750000" />
       <workItem from="1722021484682" duration="1932000" />
       <workItem from="1722023537526" duration="9906000" />
-      <workItem from="1722126432241" duration="4130000" />
+      <workItem from="1722126432241" duration="8712000" />
+      <workItem from="1722602711212" duration="2394000" />
+      <workItem from="1722680736772" duration="7947000" />
+      <workItem from="1723244176148" duration="370000" />
     </task>
     <task id="LOCAL-00001" summary="Models developed">
       <option name="closed" value="true" />
@@ -191,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722138319706</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Updates">
+      <option name="closed" value="true" />
+      <created>1722139986993</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722139986993</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,5 +229,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MercaditoNicaAIModels$predict.coverage" NAME="predict Coverage Results" MODIFIED="1722138208815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/MercaditoNicaAIModels$main.coverage" NAME="main Coverage Results" MODIFIED="1722139112747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MercaditoNicaAIModels$.coverage" NAME=" Coverage Results" MODIFIED="1722686969146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>
