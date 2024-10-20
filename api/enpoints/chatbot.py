@@ -19,7 +19,7 @@ def load_csv_data(filepath):
 
 
 # Load the data from asistente.csv
-chatbot_data = load_csv_data("asistente.csv")
+chatbot_data = load_csv_data("./asistente.csv")
 
 
 @router.post("/chatbot/")
