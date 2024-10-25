@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from api.enpoints import market_analysis, pricing, recommender, chatbot
+from api.endpoints import market_analysis, pricing, recommender, chatbot
 
 app = FastAPI()
 

@@ -26,6 +26,7 @@ ENV PATH="/root/.cargo/bin:${PATH}"
 COPY ./api/endpoints/asistente.csv /MercaditoNicaAIModels/api/endpoints/asistente.csv
 
 
+
 # Copy the rest of the application code into the container
 COPY . .
 

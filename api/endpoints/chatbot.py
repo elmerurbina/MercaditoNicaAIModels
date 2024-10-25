@@ -8,7 +8,7 @@ router = APIRouter()
 EXTERNAL_API_URL = "http://external-api-url.com/get-question"
 
 # Path to the CSV file
-filepath = 'api/endpoints/asistente.csv'
+CSV_FILE_PATH = 'api/endpoints/asistente.csv'
 
 
 # Load the CSV data into a dictionary
