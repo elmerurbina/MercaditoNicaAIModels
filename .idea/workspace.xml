@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75dce1d6-e887-4096-a144-025667279be3" name="Changes" comment="Chatbot assitant added" />
+    <list default="true" id="75dce1d6-e887-4096-a144-025667279be3" name="Changes" comment="Chatbot assitant added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/enpoints/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/enpoints/chatbot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asistente.csv" beforeDir="false" afterPath="$PROJECT_DIR$/api/enpoints/asistente.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,32 +46,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.All in generated-requests.executor": "Run",
-    "Python tests.Python tests in recommender_test.py.executor": "Run",
-    "Python tests.Python tests in test_data_loader.py.executor": "Debug",
-    "Python tests.Python tests in test_markey_analysis.py.executor": "Run",
-    "Python tests.Python tests in test_pricing_calculator.py.executor": "Run",
-    "Python.chatbot.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.predict.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/elmer/PycharmProjects/MercaditoNicaAIModels",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.All in generated-requests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in recommender_test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_data_loader.py.executor&quot;: &quot;Debug&quot;,
+    &quot;Python tests.Python tests in test_markey_analysis.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_pricing_calculator.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chatbot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.predict.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/elmer/PycharmProjects/Freud_IA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\elmer\PycharmProjects\MercaditoNicaAIModels\api\enpoints" />
       <recent name="C:\Users\elmer\PycharmProjects\MercaditoNicaAIModels" />
+      <recent name="C:\Users\elmer\PycharmProjects\MercaditoNicaAIModels\api\enpoints\utils" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -104,7 +110,9 @@
       <workItem from="1729257234032" duration="627000" />
       <workItem from="1729284725623" duration="597000" />
       <workItem from="1729300050237" duration="594000" />
-      <workItem from="1729433125781" duration="849000" />
+      <workItem from="1729433125781" duration="2043000" />
+      <workItem from="1729455781062" duration="807000" />
+      <workItem from="1729858911534" duration="925000" />
     </task>
     <task id="LOCAL-00001" summary="Models developed">
       <option name="closed" value="true" />
@@ -274,7 +282,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729433967797</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Chatbot assitant added">
+      <option name="closed" value="true" />
+      <created>1729434221816</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1729434221816</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Chatbot assitant added">
+      <option name="closed" value="true" />
+      <created>1729434457733</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1729434457733</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
