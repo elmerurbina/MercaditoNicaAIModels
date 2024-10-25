@@ -7,20 +7,23 @@ router = APIRouter()
 # URL for the external API where the question is fetched
 EXTERNAL_API_URL = "http://external-api-url.com/get-question"
 
+# Path to the CSV file
+CSV_FILE_PATH = r"C:\Users\elmer\PycharmProjects\MercaditoNicaAIModels\api\endpoints\asistente.csv"
 
 # Load the CSV data into a dictionary
 def load_csv_data(filepath):
     dataset = {}
-    with open(filepath, mode='r', encoding='utf-8') as file:
-        reader = csv.DictReader(file)
-        for row in reader:
-            dataset[row['question'].lower()] = row['answer']
+    try:
+        with open(filepath, mode='r', encoding='utf-8') as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                dataset[row['question'].lower()] = row['answer']
+    except FileNotFoundError:
+        raise HTTPException(status_code=500, detail="CSV file not found")
     return dataset
 
-
 # Load the data from asistente.csv
-chatbot_data = load_csv_data("./asistente.csv")
-
+chatbot_data = load_csv_data(CSV_FILE_PATH)
 
 @router.post("/chatbot/")
 async def get_response():
@@ -49,4 +52,3 @@ async def get_response():
 
     except requests.exceptions.RequestException as e:
         raise HTTPException(status_code=500, detail="Error communicating with external API")
-
