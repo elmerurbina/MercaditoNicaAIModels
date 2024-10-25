@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-import requests
+from pydantic import BaseModel
 import csv
 
 router = APIRouter()
@@ -22,12 +22,16 @@ def load_csv_data(filepath):
 # Load the data from asistente.csv
 chatbot_data = load_csv_data(CSV_FILE_PATH)
 
-@router.post("/")
-async def get_response(question: str):
+# Define the input model
+class QuestionModel(BaseModel):
+    question: str
+
+@router.post("/chatbot/")
+async def get_response(question: QuestionModel):
     """
     Search for an answer in the local CSV file based on the user's question.
     """
-    question_lower = question.lower()
+    question_lower = question.question.lower()
     if question_lower in chatbot_data:
         return {"answer": chatbot_data[question_lower]}
     else:
