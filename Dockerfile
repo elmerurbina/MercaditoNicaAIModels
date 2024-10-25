@@ -23,7 +23,8 @@ RUN apt-get update && \
 ENV PATH="/root/.cargo/bin:${PATH}"
 
 # Copy the specific CSV file into the container
-COPY api/endpoints/asistente.csv api/endpoints/asistente.csv
+COPY ./api/endpoints/asistente.csv /MercaditoNicaAIModels/api/endpoints/asistente.csv
+
 
 # Copy the rest of the application code into the container
 COPY . .
