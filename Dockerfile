@@ -10,13 +10,20 @@ WORKDIR /MercaditoNicaAIModels
 # Copy only the requirements file first for better caching of dependencies
 COPY requirements.txt .
 
-# Install Rust and Cargo
-RUN apt-get update && apt-get install -y curl \
-    && curl https://sh.rustup.rs -sSf | sh -s -- -y \
-    && export PATH="$HOME/.cargo/bin:$PATH" \
-    && . "$HOME/.cargo/env" \
-    && pip install --no-cache-dir -r requirements.txt \
-    && apt-get clean && rm -rf /var/lib/apt/lists/*
+# Install Rust and Cargo, and Python dependencies
+RUN apt-get update && \
+    apt-get install -y curl build-essential && \
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y && \
+    export PATH="$HOME/.cargo/bin:$PATH" && \
+    . "$HOME/.cargo/env" && \
+    pip install --no-cache-dir -r requirements.txt && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Update PATH for Rust to ensure it's available for all sessions
+ENV PATH="/root/.cargo/bin:${PATH}"
+
+# Copy the specific CSV file into the container
+COPY api/endpoints/asistente.csv api/endpoints/asistente.csv
 
 # Copy the rest of the application code into the container
 COPY . .
